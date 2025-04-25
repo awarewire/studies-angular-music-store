@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-event-card',
-  imports: [],
+  imports: [
+    NgOptimizedImage
+  ],
   templateUrl: './event-card.component.html',
   styleUrl: './event-card.component.css'
 })
