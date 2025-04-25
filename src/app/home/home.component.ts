@@ -5,6 +5,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import {EventCardComponent} from './event-card/event-card.component';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatFormFieldModule,
     MatSelectModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    EventCardComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
